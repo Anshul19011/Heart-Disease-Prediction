@@ -6,7 +6,9 @@ This project predicts the likelihood of a person having heart disease using clin
 
 ## 📁 File
 
-- `heart_prediction_code.ipynb` – The main notebook containing all code and analysis.
+- `heart_prediction_code.ipynb` – The notebook containing all code and analysis for dataset 1
+  
+- `heart_prediction_code_dataset_2.ipynb` – The notebook containing all code and analysis for dataset 2
 
 ---
 
@@ -47,11 +49,22 @@ The dataset used contains various features such as:
 
 ## 📈 Model Accuracy
 
-- ✅ **Testing Accuracy**: **99.12%**
-- ✅ **Training Accuracy**: **98.68%**
-- ✅ **F1 Score**: **0.989**
-- ✅ **Recall**: **1.0**
-- ✅ **Precision**: **0.979**
+###  For Dataset 1:
+
+- ✅ **Support Vector Machine (SVM)**: **81.97%**
+- ✅ **Random Forest**: **90.16%**
+- ✅ **Neural Network**: **81.97%**
+- ✅ **K-Nearest Neighbors (KNN)**: **67.21%**
+
+---
+
+###  For Dataset 2:
+
+- ✅ **Support Vector Machine (SVM)**: **80.33%**
+- ✅ **Random Forest**: **80.33%**
+- ✅ **Neural Network**: **73.77%**
+- ✅ **K-Nearest Neighbors (KNN)**: **63.93%**
+
 
 ---
 
